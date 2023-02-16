@@ -123,3 +123,31 @@ body{
     line-height: 1.3rem;
     text-align: center;
 }
+@media screen and (min-width:1080px) {
+
+    .rating-container{
+        max-width: 25rem;
+       
+    }
+    .icon{
+        margin-bottom: 1rem;
+        background-color:hsl(217, 19%, 24%);
+    }
+    .heading{
+        padding: .8rem .8rem 0rem .8rem;
+    }
+    .text{
+        padding: .8rem;
+        line-height: 1.5rem;
+    }
+    .btn{
+        padding:1.5rem;
+        margin:0rem .8rem 0rem .8rem;
+    }
+    .submit-btn{
+        min-width: 320px;
+    }
+    .thanks-container{
+        max-width: 25rem;
+    }
+}
