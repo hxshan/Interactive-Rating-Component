@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rating</title>
+</head>
+<body>
+    <main class="container">
+        <div class="rating-container" id="rating-section"><!--rating-container */-->
+            <div class="icon">
+                <img src="images/icon-star.svg" alt="star">
+            </div>
+            <h1 class="heading">How did we do?</h1> 
+            <div class="text">
+               <span>Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!</span> 
+            </div>
+            <div class="Ratings">
+                <ul class="btn-list">
+                    <li><button class="btn">1</button></li>
+                    <li><button class="btn">2</button></li>
+                    <li><button class="btn">3</button></li>
+                    <li><button class="btn">4</button></li>
+                    <li><button class="btn">5</button></li>
+                    
+                </ul>
+            </div>
+            <button class="submit-btn" type="submit" id="rating-submit">SUBMIT</button> 
+        </div>
+        <!--THANK Section-->
+        <div class="hidden" id="thank-section">
+            <div class="thanks-container">
+
+                <div class="img">
+                    <img src="images/illustration-thank-you.svg" alt="thanks">
+                </div>
+                <div class="selected">
+                    <p>You selected <span id="selected"></span> out of 5</p>
+                </div>
+                <h1 class="thank-header">Thank you!</h1> 
+                <div class="thank-text">
+                   <span> We appreciate you taking the time to give a rating. If you ever need more support, 
+                    don’t hesitate to get in touch!</span> 
+                </div>
+            </div>
+        </div>
+        
+    </main>
+   
+  
+<script src="index.js"></script>
+</body>
+</html>

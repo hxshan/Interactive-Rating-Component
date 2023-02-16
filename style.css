@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   /* background-color: hsl(228, 11%, 9%);*/
+    font-family: Overpass,'Times New Roman', Times, serif;
+    font-size: 0.9375;
+    color:white;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    max-width: 20rem;
+    padding: 1.5rem 1rem 2rem 1rem;
+    border-radius: 15px;
+    background-image: linear-gradient(hsl(215, 20%, 19%),hsl(223, 11%, 12%));
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: .7rem;
+    margin-bottom: 1rem;
+    background-color:hsl(217, 19%, 24%);
+}
+.heading{
+    padding: .5rem;
+}
+.text{
+    color: white;
+    opacity: 0.5;
+    padding: .5rem;
+    line-height: 1.3rem;
+}
+.btn-list{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    margin: 1rem 0rem;
+}
+.btn{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    padding: 1.3rem;
+    margin: .5rem;
+    border-radius: 50%;   
+    background-color:hsl(217, 19%, 24%);
+    border: none;
+    color: rgba(255, 255, 255, 0.534);
+    cursor: pointer;
+    
+} 
+.btn:hover{
+    background-color:hsl(25, 100%, 50%);
+}
+.btn:focus{
+    background-color: hsl(216, 12%, 54%);
+}
+
+.submit-btn{
+    min-width: 260px;
+    min-height:2.8rem;
+    margin:1rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .3rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*  Thank you section*/
+
+.thanks-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    max-width: 20rem;
+    padding: 1.5rem 1rem 1rem 1rem;
+    border-radius: 15px;
+    background-image: linear-gradient(hsl(215, 20%, 19%),hsl(223, 11%, 12%));
+}
+.selected{
+    max-width: 220px;
+    background-color:hsl(215, 20%, 19%);
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 1rem;
+    padding:.7rem;
+    color:hsl(25, 98%, 53%) ;
+}
+.thank-header{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.thank-text{
+    color: white;
+    opacity: 0.5;
+    padding: .5rem;
+    line-height: 1.3rem;
+    text-align: center;
+}
