@@ -19,6 +19,9 @@ body{
     align-items: center;
     background-color: black;
 }
+.hidden{
+    display: none;
+}
 .rating-container{
     display: flex;
     flex-direction: column;
