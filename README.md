@@ -1,3 +1,3 @@
 # Interactive-Rating-Component
 
-A small Rating component made unsing HTML Css and Javascript.<br> 💖
+A small Rating component made using HTML Css and Javascript.<br> 💖
